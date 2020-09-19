@@ -87,7 +87,7 @@ header.masthead .masthead-content {
 }
 
 header.masthead .masthead-content .masthead-heading {
-    font-size: 4rem
+    font-size: 3rem
 }
 
 header.masthead .masthead-content .masthead-subheading {
@@ -131,7 +131,7 @@ header.masthead .bg-circle-4 {
 
 @media (min-width:992px) {
     header.masthead {
-        padding-top: calc(3rem + 55px);
+        padding-top: calc(2rem + 55px);
         padding-bottom: 3rem
     }
 
@@ -201,9 +201,9 @@ header.masthead .bg-circle-4 {
     background: #555;
 }
 
-form {
+form-section {
     position: relative;
-    max-width: 420px;
+    max-width: 520px;
     width: 100%;
     background: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 4px 8px, rgba(0, 0, 0, 0.04) 0px 16px 24px, rgba(0, 0, 0, 0.01) 0px 24px 32px;
