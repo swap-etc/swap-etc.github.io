@@ -11,6 +11,6 @@ fetch(apiUrl, {
   referrerPolicy: "origin",
   body: null,
   method: "GET",
-  mode: "cors",
+  mode: "no-cors",
   credentials: "omit",
 }).then(console.log);
