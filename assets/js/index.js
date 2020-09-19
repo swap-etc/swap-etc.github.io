@@ -31,9 +31,15 @@ function handleSubmit() {
 }
 
 function handleCopy() {
-  var copyText = document.getElementById("qr-code")
+  var copyText = document.createElement('textarea');
+  copyText.value = "0x81888Ae2203ba559DC7145746E0D740431d14D22";
+  copyText.setAttribute('readonly', '');
+  copyText.style.position = 'absolute';
+  copyText.style.left = '-9999px';
+  document.body.appendChild(copyText);
   copyText.select();
-  copyText.setSelectionRange(0, 99999);
-  document.execCommand("copy");
+  document.execCommand('copy');
+  document.body.removeChild(copyText);
 }
+
 handleChange();
